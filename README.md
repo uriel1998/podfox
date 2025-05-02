@@ -9,7 +9,7 @@ Work in Progress and unfinished. Use at your own risk.
 
 From the terminal:
 
-``
+```
 git clone git@github.com:uriel1998/podfox.git  
 cd podfox  
 ```
