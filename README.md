@@ -10,9 +10,10 @@ Work in Progress and unfinished. Use at your own risk.
 From the terminal:
 
 ``
-git clone git@github.com:uriel1998/podfox.git
-cd podfox
-``
+git clone git@github.com:uriel1998/podfox.git  
+cd podfox  
+```
+
 Install these packages on Debian, Ubuntu, and derivatives:
 
 `sudo apt install python3-colorama python3-requests python3-feedparser python3-docopt`
