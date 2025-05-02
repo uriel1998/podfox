@@ -14,19 +14,20 @@ git clone git@github.com:uriel1998/podfox.git
 cd podfox  
 ```
 
-Install these packages on Debian, Ubuntu, and derivatives:
+Install these packages on Debian, Ubuntu, and derivatives if you like.
 
 `sudo apt install python3-colorama python3-requests python3-feedparser python3-docopt`
 
-or create and activate a venv:
+Create and activate a venv:
 ```
 python3 -m venv podfox .
 
 source bin/activate
 pip install -r requirements.txt
+python3 setup.py install
 ```
 
-Then `python3 setup.py install` to build the executable, then move it (located in `./bin` to wherever you like.)
+Then move it (located in `./bin`) to wherever you like, or run it from there. 
 
 
 
