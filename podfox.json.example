@@ -1,7 +1,7 @@
 {
 
 "podcast-directory" : "/path/to/store/Podcasts",
-
+"maxage-days" : 1,
 "maxnum" : 5
 
 }

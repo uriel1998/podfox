@@ -37,12 +37,14 @@ Here is mine:
 ```
 {
     "podcast-directory" : "/home/basti/podcasts",
+    "maxage-days"       : 1,
     "maxnum"            : 5
 }
 ```
 `podcast-directory` is your main directory to store podcast data. This directory should be empty before you
 begin adding feeds.
 `maxnum` describes the maximum number of episodes you want to download with a single `download`-command.
+`maxage-days` is how old it can be.
 
 ## Directory Structure
 
