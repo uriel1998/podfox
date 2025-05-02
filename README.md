@@ -5,30 +5,29 @@
 A program for managing & catching podcasts from the terminal. 
 
 Work in Progress and unfinished. Use at your own risk.
-## Requirements
+## Requirements and Installation
 
-requires feedparser, requests and colorama
+From the terminal:
 
-## Installation
-
-Do not simply use pip at the moment, the version on pip tries to request a version 
-of feedparser that is no longer available. Instead use a venv.
-
-
-Install in a venv:
-
-```
+``
 git clone git@github.com:uriel1998/podfox.git
 cd podfox
+``
+Install these packages on Debian, Ubuntu, and derivatives:
+
+`sudo apt install python3-colorama python3-requests python3-feedparser python3-docopt`
+
+or create and activate a venv:
+```
 python3 -m venv podfox .
 
 source bin/activate
 pip install -r requirements.txt
 ```
 
-Build the executable, then move it to wherever you like.
+Then `python3 setup.py install` to build the executable, then move it (located in `./bin` to wherever you like.)
 
-`python3 setup.py install`
+
 
 ## Configuration
 
